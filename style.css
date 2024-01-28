@@ -1,0 +1,122 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(6, 19, 18);
+  }
+  
+  body {
+    width: 300px;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .lastResult {
+    color: cyan;
+    padding: 7px;
+  }
+  
+  .guesses {
+    color: cyan;
+    padding: 7px;
+    /* background-color: rgb(44, 42, 42); */
+    background-color: none;
+    border-radius: 6px;
+    margin-left: 5px;
+  }
+  
+  button {
+    background-color: #141414;
+    color: cyan;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 30px;
+  }
+  
+  #subt {
+    background-color: #1a1919;
+    color: rgb(22, 225, 225);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 50px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  #subt:hover{
+    background-color: rgb(39, 36, 36);
+    color: cyan;
+    font-size: 22px;
+    cursor: pointer;
+    width: 205px;
+    height: 55px;
+    
+}
+  #guessField {
+    color: #000;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 25px;
+    border: 5px solid #6c6d6d;
+    text-align: center;
+  }
+  
+  #guess {
+    font-size: 55px;
+    margin-top: 120px;
+    color: cyan;
+  }
+
+  
+  #wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    border-width: 2px solid black;
+    border-radius: 15px 15px 0px 0px; 
+    height: 550px;
+    width: 420px;
+    background-color: rgb(20, 19, 19);
+    color: cyan;
+    font-size: 25px;
+    transition: ease-out 0.5s;
+  }
+  #wrapper:hover{
+    background-color: black;
+    border-width: 2px solid black;
+    height: 550px;
+    width: 440px;
+
+}
+  
+  h2 {
+    background-color: #210a36;
+    color: yellow;
+    border-width: 2px solid black;
+    border-radius: 15px ;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+h2:hover{
+    background-color: yellow;
+    color: red;
+    font-size: 32px;
+  }
+  #guess{
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
